@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/india"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star_border"
+        android:title="India"/>
+    <item
+        android:id="@+id/usa"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star_border"
+        android:title="USA"/>
+    <item
+        android:id="@+id/china"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star_border"
+        android:title="China"/>
+    <item
+        android:id="@+id/japan"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star_border"
+        android:title="Japan"/>
+    <item
+        android:id="@+id/other"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star_border"
+        android:title="Other"/>
+
+</menu>

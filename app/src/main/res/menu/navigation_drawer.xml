@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Login"
+        android:icon="?android:attr/fingerprintAuthDrawable"
+        android:title="Login"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/List"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="List"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/About"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="About"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Alert"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="Alert"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/AsyncTask"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="AsyncTask"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ImageSlider"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="ImageSlider"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/DynamicTab"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="DynamicTab"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Search"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Form"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="Form"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/RetroFit"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="RetroFit"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Volley"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="Volley"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/OkHttp"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="OkHttp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/MovieList"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="MovieList"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/GoogleSignIn"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="GoogleSignIn"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/FaceBookSignIn"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="FaceBookSignIn"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/OtpSignIn"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="OtpSignIn"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/EmailSignIn"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="EmailSignIn"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Notification"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="Notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Maps"
+        android:icon="?android:fingerprintAuthDrawable"
+        android:title="Maps"
+        app:showAsAction="always" />
+
+</menu>

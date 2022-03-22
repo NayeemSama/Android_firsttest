@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirstTest</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+
+    <string name="facebook_app_id">497425982009310</string>
+    <string name="fb_login_protocol_scheme">fb497425982009310</string>
+    <string name="facebook_client_token">cab0badd06703550ea8e1cb58b6fdbe6</string>
+    <string name="client_ID">1029142866434-d72tsos4afthb6ue72kiqicegubo6a37.apps.googleusercontent.com</string>
+    <string name="facebook_app_secret">ca9a095b187f5cfcecfdf1b0f0dbc685</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

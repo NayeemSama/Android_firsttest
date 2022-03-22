@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button.Purp" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">#93A1ED</item>
+    </style>
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#93A1ED</item>
+    </style>
+</resources>

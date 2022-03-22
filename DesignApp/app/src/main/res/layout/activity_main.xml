@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ribbon"
+    android:backgroundTint="#001C4C"
+    android:backgroundTintMode="screen"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="900px"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik"
+            android:text="Welcome To Sleep"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="900px"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik"
+            android:text="Explore the new king of sleep. It uses sound and vesualization to create perfect conditions for refreshing sleep."
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#93A1ED"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/moon_back_blur"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="92dp"
+        android:alpha="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:src="@drawable/moon"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:src="@drawable/moon_eclipse"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startSPLASH"
+        style="@style/Button.Purp"
+        android:text="Get Started"
+        android:textSize="30dp"
+        android:background="@drawable/button_back"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

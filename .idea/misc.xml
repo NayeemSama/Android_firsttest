@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/draw_empty_heart.xml" value="0.21851851851851853" />
+        <entry key="app/src/main/res/drawable/draw_fill_heart.xml" value="0.21851851851851853" />
+        <entry key="app/src/main/res/drawable/heart.xml" value="0.21851851851851853" />
+        <entry key="app/src/main/res/drawable/ic_accessibility.xml" value="0.21851851851851853" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.27835497835497836" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.27835497835497836" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.27835497835497836" />
+        <entry key="app/src/main/res/drawable/ic_bottomsheet.xml" value="0.21944444444444444" />
+        <entry key="app/src/main/res/drawable/ic_heart.xml" value="0.21851851851851853" />
+        <entry key="app/src/main/res/drawable/ic_plus.xml" value="0.27835497835497836" />
+        <entry key="app/src/main/res/drawable/ic_star.xml" value="0.27835497835497836" />
+        <entry key="app/src/main/res/drawable/ic_star_border.xml" value="0.27835497835497836" />
+        <entry key="app/src/main/res/drawable/list_item_back.xml" value="0.22314814814814815" />
+        <entry key="app/src/main/res/font/rubik.xml" value="0.29004329004329005" />
+        <entry key="app/src/main/res/font/rubik_mono_one.xml" value="0.29004329004329005" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.1787037037037037" />
+        <entry key="app/src/main/res/layout/activity_alert.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_asynctask.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.20512820512820512" />
+        <entry key="app/src/main/res/layout/activity_drawer.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/activity_dynamictab.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_emailverify.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/activity_facebook.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/activity_form.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_googlesignin.xml" value="0.17483811285846437" />
+        <entry key="app/src/main/res/layout/activity_gridmovielist.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/activity_imageslider.xml" value="0.2582278481012658" />
+        <entry key="app/src/main/res/layout/activity_linkedin.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.18981481481481483" />
+        <entry key="app/src/main/res/layout/activity_movielist.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_moviepagination.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/activity_notification.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/activity_okhttp.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_otp.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.24074074074074073" />
+        <entry key="app/src/main/res/layout/activity_retrofit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_splashscreen.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_volley.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_widget.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/activity_xmlparsing.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/bottomsheet_layout.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/custom_griditem.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/custom_item.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/custom_movieitem.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/custom_mtoolbar.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/custom_notification.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/custom_okhttpitem.xml" value="0.268859649122807" />
+        <entry key="app/src/main/res/layout/custom_toolbar.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/custom_volleyitem.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/layout/fragment_dynamictab.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/layout/mywidget.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/menu/bottombar_menu.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/menu/bottomnavigation_menu.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/menu/context_menu.xml" value="0.2649350649350649" />
+        <entry key="app/src/main/res/menu/navigation.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.26842105263157895" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11973684210526316" />
+        <entry key="app/src/main/res/xml/mywidget.xml" value="0.2662280701754386" />
+        <entry key="app/src/main/res/xml/network_config.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/xml/strings.xml" value="0.2662280701754386" />
+        <entry key="loginmodule/src/main/res/layout/activity_login.xml" value="0.26842105263157895" />
+        <entry key="secondtest/src/main/res/layout/activity_second_test.xml" value="0.2565789473684211" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

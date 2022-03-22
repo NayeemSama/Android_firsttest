@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/userLOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username"
+            android:singleLine="true"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/passLOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:maxLength="6"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/btnLOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

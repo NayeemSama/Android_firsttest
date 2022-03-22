@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:targetSandboxVersion="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xpressy.firsttest">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+
+
+
+    <!-- FOR ASYNCTASK -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!--For XML Parsing-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:networkSecurityConfig="@xml/network_config"
+        android:usesCleartextTraffic="true"
+
+        android:theme="@style/Theme.FirstTest">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activity.MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+
+        <service
+            android:name=".Service.FireBaseMessageService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <activity
+            android:name=".Activity.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.DashboardActivity" />
+        <activity android:name=".Activity.BaseActivity" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.ListActivity" />
+        <activity android:name=".Activity.FormActivity" />
+        <activity android:name=".Activity.AboutActivity" />
+        <activity android:name=".Activity.AsynctaskActivity" />
+        <activity android:name=".Activity.AlertDialogActivity" />
+        <activity android:name=".Activity.ImageSliderActivity" />
+        <activity android:name=".Activity.DynamicTabActivity" />
+        <activity android:name=".Activity.SearchActivity" />
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.RetroFitActivity" />
+        <activity android:name=".Activity.VolleyActivity" />
+        <activity android:name=".Activity.OkHttpActivity" />
+        <activity android:name=".Activity.MovieListActivity" />
+        <activity android:name=".Activity.FaceBookActivity" />
+        <activity android:name=".Activity.GoogleSignInActivity" />
+        <activity android:name=".Activity.LinkedInActivity" />
+        <activity android:name=".Activity.OtpAuthActivity" />
+        <activity android:name=".Activity.EmailVerifyActivity" />
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity android:name=".Activity.XMLActivity"/>
+
+        <!-- FOR WIDGET -->
+        <receiver
+            android:name=".Activity.WidgetActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mywidget" />
+        </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
